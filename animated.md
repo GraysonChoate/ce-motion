@@ -20,7 +20,9 @@ Footage of people, a cinematic world, or any generated plate is a supplier ticke
 - **A · Presets**: Marketing Studio motion presets (hyper-motion, 2D motion, mixed media, SaaS motion); real product and logo as inputs; run on a yes. Concept or draft unless they pass label + frame check.
 - **B · Plate + composite**: a video plate ordered by ticket from ce-cinematic (start frame = end frame for a loop), then composite the real pack and logo with tracking so they stay locked to the surface (code, Higgsedit or AE).
 - **C · Code-built**: HTML + GSAP / Three.js, deterministic frame recorder, ffmpeg; or HyperFrames / Remotion; or Higgsedit. For kinetic type, data, 3D turntables, scroll-style reveals, app UI motion.
+  - Before motion: one key still per beat → animatic (static cuts, real timings, text in place) → legibility check at phone size in every ratio. Frame recorder: seek per frame, local fonts, base64-embedded textures, ffmpeg encode.
 - **D · After Effects**: ExtendScript through the app, aerender. For logo stings, tracking, precise text, compositing, editable projects. Route order: core/finish-layer/after-effects/AE-route.md.
+  - Flow: brief > Higgsfield stills (clean cutouts, real alpha) > board approval > build in AE > editable project + linked assets + render. Soundtrack is the master clock: measure beats, cut on them, place boundaries in absolute musical time so frame rounding doesn't add up. Tracking marks computed from the animated transforms, never placed by hand. Native text, shape layers, named layers, precomps. Check the real render for clipping, detached marks, overlaps, flicker, missing footage, beat sync.
 - **E · Scale**: native re-layout per ratio; Ad Multiplier for variants from one approved 4–30 s source.
 
 ## Data and type
@@ -34,3 +36,5 @@ States designed on the board (rest, hover, tap, swiped, done). Built in code ove
 
 ## App UI motion
 From real screenshots or real app code only; never model-drawn UI. Exact UI text. Device and lifestyle shots ordered from ce-realism or ce-cinematic.
+- HUD stays flat on screen, never in the 3D world. Button micro-physics in numbers ("3 cm button travels 4 mm, firm click"). Screen demo: camera tight on the screen, no scrolling.
+- AE dashboard prompt: style + elements + one named AE effect each (counter = Numbers, chart = Linear Wipe, cards = stagger) + idle drift + "all editable layers".
