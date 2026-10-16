@@ -25,10 +25,10 @@ Topic or images > plan each slide (hook, rules, CTA) > decide what moves, when, 
 - FFmpeg: encoder.
 
 ## Platform facts (outside research, checked Mar-Jun 2026)
-Up to 20 slides, photos and videos mixed. 4:5 1080x1350 recommended; the first slide sets the ratio. MP4/MOV; 30 MB (one source). Profile grid crops slide 1 to 3:4. Keep key content off the left and right edges. Not found: video-slide max length, default audio behavior. His claim that music keeps playing across slides is unverified.
+Photos and videos mixed; the first slide sets the ratio. Sizes and slide count: carousel.md / core/export-table.md. MP4/MOV; 30 MB (one source). Profile grid crops slide 1 to 3:4. Keep key content off the left and right edges. Not found: video-slide max length, default audio behavior. His claim that music keeps playing across slides is unverified.
 
 ## Style sheet route (earlier video)
-A Pinterest carousel you like becomes a style-sheet reference (type specimens, palettes, world, components) through a prompt; every slide follows it so slide 1 looks like slide 7. Business owners can feed their own phone photos. Do not use his $0 route of web screenshots as material (copyright).
+A Pinterest carousel you like becomes a style-sheet reference (type specimens, palettes, world, components) through a prompt; every slide follows it so slide 1 looks like slide 7. Business owners can feed their own phone photos.
 
 ## Cautions
 - "$0" holds for build 1 only. Build 2 used Higgsfield images and a laptop that can run ACE-Step.

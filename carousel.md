@@ -1,8 +1,9 @@
 # Carousels (ce-motion)
 Spine and gates: SKILL.md. Rhythm method: library/jad-carousel.md.
 
+Static is the default; live only when asked or proposed in the brief. Size, slide count, safe zone: core/export-table.md.
+
 ## Static carousel
-- 4:5 1080×1350 (or 1:1), up to 10 slides (20 allowed; 10 is the default).
 - Slide 1 is the hook; the profile grid crops to 3:4, so the title sits centered.
 - Each slide readable in 3 s: headline ≤ 8 words, 3–5 chunks, one accent color, 4 type sizes max. Cover readable at 200 px wide.
 - Story across slides: hook > problem > turn > proof (product) > payoff > CTA on the last slide. Story check runs on slides.

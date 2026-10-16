@@ -18,6 +18,6 @@ The piece must work muted. When sound is on, every sound is tied to something th
 - Max about one cue per second; let quiet moments breathe.
 - Style follows the brand's motion words: calm brands get soft, airy sounds; playful brands get bouncy pops; luxury gets almost none.
 - Music: the track's BPM is the clock; cuts and hits on the beat. No track: 120 BPM carousels, 128 reels.
-- SFX at least 8 dB under any voice; −14 LUFS master; peaks under −1 dBTP.
+- SFX at least 8 dB under any voice; loudness and peaks per core/export-table.md.
 - Code-built pieces render silent by default: add SFX and music as a separate layer.
-- Generated (generate_audio) or licensed only.
+- Source: SFX, music and stings per core/tools/routing.md "audio" row (generate_audio is speech only). Music default: generated, platform library (e.g. Meta Sound Collection) or user-supplied.

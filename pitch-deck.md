@@ -1,5 +1,5 @@
 # Pitch / concept decks (ce-motion)
-Spine and gates: SKILL.md. Build from the Slides artifact type when listed; a .pptx (pptx skill) only if the user names that format.
+Spine and gates: SKILL.md.
 
 Assembles finished work (sites, films, boards) into a deck to win ideas and feedback. It doesn't make new films; missing pieces become tickets to the right engine.
 Variables: [BRAND] [GOAL] [LENGTH: the user sets it; default 10 slides, said so] [DIRECTIONS: how many looks].
@@ -14,10 +14,10 @@ Variables: [BRAND] [GOAL] [LENGTH: the user sets it; default 10 slides, said so]
 | 5 Build | From the Slides artifact type when listed (Artifact quickstart, intent slides); a .pptx only if the user names that format. Real screenshots and images only. |
 | 6 Assemble | Order, transitions, links or short loops for video. |
 | 7 Audit + deliver | Every slide viewed as an image: overflow, tiny text, wrong logos or labels, anything inferred but unmarked. Then the deck + a one-line list of what's inferred and what's still needed. |
-EXPLORE: show and go at each gate. EXACT ("client", "send", "ship"): every gate waits; step 7 by a separate pass.
+EXPLORE: show and go at each gate. EXACT ("exact mode", "ship it", "client-ready"): every gate waits; step 7 by a separate pass.
 
 ## Deck rules
-- Inferred items are marked "from your site, please confirm". Never write copy as if the client said it.
+- Inferred is not fact: mark it "from your site, please confirm". Never write copy as if the client said it.
 - No invented reviews, quotes or numbers about the brand (core SKILL.md §3).
 - Real screenshots, real logo, real packs. Real text in the editor.
 
@@ -34,10 +34,8 @@ Optional: **Category snapshot** (competitors: match / beat), **Site map**, **Pri
 Order follows the story: where they are, what we think, what we could do, what we need.
 
 ## Rules
-- Inferred is not fact. Label it. Never write copy as if the client said it.
 - One idea per slide. About 20 words or fewer. Big images. 2 to 3 fonts.
 - Ask for reactions in a form that gets answers: pick A, B or C; Love / Change / Cut on each slide.
-- Do not imply approval or partnership by using their name or logo.
 - Videos stay as links or short loops; do not bloat the deck.
 - Do not carry one project's choices (length, order, modules) into the next. Ask or follow the new request.
 
@@ -50,4 +48,4 @@ Order follows the story: where they are, what we think, what we could do, what w
 | No brand guide yet | Brand module says inferred; needs module asks for it. |
 | Too long | Merge or cut from the bottom of the module list. |
 
-Output style: short, plain language. Ask at most one question at a time.
+Output style: short, plain language. Questions in one block per core/intake.md.
