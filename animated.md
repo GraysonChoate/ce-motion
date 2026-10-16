@@ -17,7 +17,7 @@ If the piece needs footage of people or a cinematic world, that footage is a tic
 9. HOLD + END STATE: last beat held; end card exact.
 
 ## Routes
-- **A · Presets**: Marketing Studio motion presets (hyper-motion, 2D motion, mixed media, SaaS motion); real product and logo as inputs; run only on a yes; check like any route.
+- **A · Presets**: Marketing Studio motion presets (hyper-motion, 2D motion, mixed media, SaaS motion); real product and logo as inputs; run only on a yes. Output = a concept or a draft for the board, not a final, unless it passes the label check and frame check like any route.
 - **B · Generated plate + composite**: a video plate (start frame = end frame for a loop), then composite the real pack and logo with tracking so they stay locked to the surface (code, Higgsedit or AE).
 - **C · Code-built**: HTML + GSAP / Three.js, deterministic frame recorder, ffmpeg; or HyperFrames / Remotion; or Higgsedit. For kinetic type, data, 3D turntables, scroll-style reveals, app UI motion.
 - **D · After Effects**: ExtendScript through the app, aerender. For logo stings, tracking, precise text, compositing, editable projects. Route order: core/finish-layer/after-effects/AE-route.md.

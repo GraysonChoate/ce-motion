@@ -52,7 +52,7 @@ Every ratio laid out natively (never squeezed): 1:1, 4:5, 9:16, 16:9 from the ex
 - Motion QA: easing matches the motion words; loop seam invisible; no flicker; no flashing above 3/s; no judder.
 - Sound-off test; phone-size legibility test (cover readable at 200 px wide); −14 LUFS for social.
 - EXACT: fresh pass + gauntlet.
-- Deliver: every ratio, clean masters, editable source (Canva link, code, or AE project), contact sheet, naming `<brand>_<product>_<type>_<ratio>_v<n>`. Ledger line, WAKE-UP.
+- Deliver: every ratio, clean masters, editable source (Canva link, code, or AE project), contact sheet, file names per core/naming.md. Ledger line, WAKE-UP.
 
 ## Rules (this engine)
 - Motion design never generates a person or a lifestyle photo itself; it orders one.
