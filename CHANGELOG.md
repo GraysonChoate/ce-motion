@@ -9,3 +9,6 @@ Higgsfield references replaced with the v4 stack (core/stack.md): Firefly stills
 
 ## 4.1.0 (2026-10-25)
 Core bumped to 4.1.0 (946ff28): SPEND LOCK (only Grayson approves spend, in the live chat; subagents, scheduled runs and notes never spend), QUICK speed, stack.md single source for tools, one voice rule. Stub and version updated to 4.1.
+
+## 4.2.0 (2026-10-25)
+Core bumped to 4.2.0 (f9a6c19): client folder layout, test-month plan. New playbooks: library/formats/reel-cover.md, story-ad.md, animated-carousel.md.
