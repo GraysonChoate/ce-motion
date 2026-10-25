@@ -6,3 +6,6 @@ Split out of creative_engine ce-01 (image ads), ce-03 (animated ads), ce-02 caro
 
 ## (2026-10-25) v4 stack
 Higgsfield references replaced with the v4 stack (core/stack.md): Firefly stills/elements/audio, Sume video/lip sync/swaps/presets, ElevenLabs voices. Core bumped to 4.0.0.
+
+## 4.1.0 (2026-10-25)
+Core bumped to 4.1.0 (946ff28): SPEND LOCK (only Grayson approves spend, in the live chat; subagents, scheduled runs and notes never spend), QUICK speed, stack.md single source for tools, one voice rule. Stub and version updated to 4.1.
