@@ -31,6 +31,12 @@ Count-up 800–900 ms ease-out, tabular numbers, no overshoot on numbers; bars f
 ## Logo sting
 Real logo file animated; sting per core/tools/routing.md "audio" row (sound.md); ≤ 3 s; reused across the set.
 
+## Brand end card (shared block; ce-cinematic and ce-realism order it by ticket)
+- Last 2.5–5 s of a video ad: the real product hero (packshot or approved still, label to camera) + the logo, centered about 35–45% down a 9:16 frame, about 40% of frame width, white or brand color.
+- Logo fades in over 8–12 frames on the beat; no bounce, no spin. Optional one line of copy (≤ 4 words) only if the brief has approved copy.
+- Out: 3–4-frame white flash or a cut to black. Built in code or After Effects from the vector logo; never generated.
+- Safe zones per core/export-table.md for the placement.
+
 ## Interactive
 States designed on the board (rest, hover, tap, swiped, done). Built in code over finished assets. Each state has a reason (reveal info, show product, confirm action). Delivered as a web piece; for a site, handed to ce-web as a component ticket.
 

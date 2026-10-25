@@ -12,3 +12,6 @@ Core bumped to 4.1.0 (946ff28): SPEND LOCK (only Grayson approves spend, in the 
 
 ## 4.2.0 (2026-10-25)
 Core bumped to 4.2.0 (f9a6c19): client folder layout, test-month plan. New playbooks: library/formats/reel-cover.md, story-ad.md, animated-carousel.md.
+
+## 4.3.0 (2026-10-25)
+Core bumped to 4.3.0 (2311fa5): tool profiles, tell-and-ask, Method choices. animated.md: shared brand end card block.
