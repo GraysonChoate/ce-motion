@@ -1,5 +1,5 @@
 # Format playbook: Static image ad (ce-motion)
-Read at step 4 (concept matrix) and step 7 (audit, every concept × ratio). §8 goes into the frame check. Template: core/format-playbook.md. Angles and routes (A Ads Studio · B locked-pack composite · C Canva): image-ads.md. Placements, sizes, safe zones: core/export-table.md. This file adds the designer's numbers; it does not restate those.
+Read at step 4 (concept matrix) and step 7 (audit, every concept × ratio). §8 goes into the frame check. Template: core/format-playbook.md. Angles and routes (A fast · B locked-pack composite · C Canva): image-ads.md. Placements, sizes, safe zones: core/export-table.md. This file adds the designer's numbers; it does not restate those.
 Graphics version of the template: §1 canvas/grid · §2 layout · §3 eye path · §4 imagery · §5 color · §6 sound (none) · §7 set and ratios · §8 checks · §9 build skeleton · §10 references.
 
 ## 1. Canvas and grid
@@ -51,7 +51,7 @@ None. A static ad is silent. If motion is asked, it is an animated ad: animated.
 - [ ] Price, claim or stat not on the real site/label; review quote not real.
 - [ ] Wrong font (fallback) or hex not in the palette.
 - [ ] Margins inconsistent across ratios of the same concept (> 4 px).
-- [ ] Ads Studio draft passed as a final without the label + frame check.
+- [ ] Preset draft passed as a final without the label + frame check.
 - [ ] Generic AI look: stock people, plastic skin, extra fingers, warped hands on the pack.
 
 ## 9. Build skeleton (reuse word for word)

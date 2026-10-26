@@ -31,5 +31,5 @@ Photos and videos mixed; the first slide sets the ratio. Sizes and slide count: 
 A Pinterest carousel you like becomes a style-sheet reference (type specimens, palettes, world, components) through a prompt; every slide follows it so slide 1 looks like slide 7. Business owners can feed their own phone photos.
 
 ## Cautions
-- "$0" holds for build 1 only. Build 2 used Higgsfield images and a laptop that can run ACE-Step.
+- "$0" holds for build 1 only. Build 2 used paid generated images and a laptop that can run ACE-Step.
 - Treat his Skool skill and prompt as unreviewed code: read before running.

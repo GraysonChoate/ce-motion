@@ -21,3 +21,6 @@ Core bumped to 4.3.1: names scrub (no client, brand or person names in engine fi
 
 ## 4.4.0 (2026-10-26)
 Core bumped to 4.4.0: new ce-sound engine (natural voices, room and mic; SFX, music and mix on its roadmap). Voice work goes to ce-sound by ticket.
+
+## 4.5.0 (2026-10-26)
+Core bumped to 4.5.0 (5811e8d): tool-neutral, Higgsfield removed. This engine: vendor-specific wording replaced by capabilities (core/stack.md); retired tool names removed.

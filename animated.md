@@ -17,12 +17,12 @@ Footage of people, a cinematic world, or any generated plate is a supplier ticke
 9. HOLD + END STATE: last beat held; end card exact.
 
 ## Routes
-- **A · Presets**: Sume presets (product commercial, logo motion, wall-of-text, slideshow) or, only if asked, Higgsfield Marketing Studio; real product and logo as inputs; run on a yes. Concept or draft unless they pass label + frame check.
-- **B · Plate + composite**: a video plate ordered by ticket from ce-cinematic (start frame = end frame for a loop), then composite the real pack and logo with tracking so they stay locked to the surface (code, Higgsedit or AE).
-- **C · Code-built**: HTML + GSAP / Three.js, deterministic frame recorder, ffmpeg; or HyperFrames / Remotion; or Higgsedit. For kinetic type, data, 3D turntables, scroll-style reveals, app UI motion.
+- **A · Presets**: the active tool's presets (product commercial, logo motion, wall-of-text, slideshow); real product and logo as inputs; run on a yes. Concept or draft unless they pass label + frame check.
+- **B · Plate + composite**: a video plate ordered by ticket from ce-cinematic (start frame = end frame for a loop), then composite the real pack and logo with tracking so they stay locked to the surface (code or AE).
+- **C · Code-built**: HTML + GSAP / Three.js, deterministic frame recorder, ffmpeg; or HyperFrames / Remotion. For kinetic type, data, 3D turntables, scroll-style reveals, app UI motion.
   - Before motion: one key still per beat → animatic (static cuts, real timings, text in place) → legibility check at phone size in every ratio. Frame recorder: seek per frame, local fonts, base64-embedded textures, ffmpeg encode.
 - **D · After Effects**: ExtendScript through the app, aerender. For logo stings, tracking, precise text, compositing, editable projects. Route order: core/finish-layer/after-effects/AE-route.md.
-  - Flow: brief > Firefly stills (cutouts via Remove background / Creative Production, real alpha) > board approval > build in AE > editable project + linked assets + render. Soundtrack is the master clock: measure beats, cut on them, place boundaries in absolute musical time so frame rounding doesn't add up. Tracking marks computed from the animated transforms, never placed by hand. Native text, shape layers, named layers, precomps. Check the real render for clipping, detached marks, overlaps, flicker, missing footage, beat sync.
+  - Flow: brief > stills (still-text capability; cutouts with real alpha) > board approval > build in AE > editable project + linked assets + render. Soundtrack is the master clock: measure beats, cut on them, place boundaries in absolute musical time so frame rounding doesn't add up. Tracking marks computed from the animated transforms, never placed by hand. Native text, shape layers, named layers, precomps. Check the real render for clipping, detached marks, overlaps, flicker, missing footage, beat sync.
 - **E · Scale**: native re-layout per ratio; Ad Multiplier for variants from one approved 4–30 s source.
 
 ## Data and type
