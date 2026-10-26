@@ -24,3 +24,6 @@ Core bumped to 4.4.0: new ce-sound engine (natural voices, room and mic; SFX, mu
 
 ## 4.5.0 (2026-10-26)
 Core bumped to 4.5.0 (5811e8d): tool-neutral, Higgsfield removed. This engine: vendor-specific wording replaced by capabilities (core/stack.md); retired tool names removed.
+
+## 4.5.1 (2026-10-26)
+Core bumped to 4.5.1: First-person ban removed: a generated creator may speak first person about routine and results, creator-style. Still not allowed: named 'verified customer', review screenshots, star ratings, fake before/afters, fake credentials (core rule 14).
