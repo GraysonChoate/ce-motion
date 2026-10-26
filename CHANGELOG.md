@@ -30,3 +30,6 @@ Core bumped to 4.5.1: First-person ban removed: a generated creator may speak fi
 
 ## 4.5.2 (2026-10-26)
 Core bumped to 4.5.2: Label rule: never paste, overlay or motion-track a label onto a generated product (it ignores the scene's light, reflections and curve). Label fail = regenerate with the packshot reference and the cause changed, image-edit the start frame so the model re-renders the pack in-scene, keep the product still in video, or cut away.
+
+## 4.5.3 (2026-10-26)
+Packshot rule: the real packshot is a reference only (placed/turned to guide angle and placement); never cut out and composited into a final image or video. ce-motion image-ads B, animated B, intake; ce-web product page; ce-cinematic worlds updated.

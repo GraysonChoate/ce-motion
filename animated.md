@@ -18,7 +18,7 @@ Footage of people, a cinematic world, or any generated plate is a supplier ticke
 
 ## Routes
 - **A · Presets**: the active tool's presets (product commercial, logo motion, wall-of-text, slideshow); real product and logo as inputs; run on a yes. Concept or draft unless they pass label + frame check.
-- **B · Plate + composite**: a video plate ordered by ticket from ce-cinematic (start frame = end frame for a loop), then composite the real pack and logo with tracking so they stay locked to the surface (code or AE).
+- **B · Generated product plate**: a video ordered by ticket from ce-cinematic with the pack rendered in-scene from a packshot-guided start frame (start frame = end frame for a loop). Never composite or track a pack or label onto the plate (real packshot = reference only (core SKILL.md rule 2)). Logos and type as graphics only, not on the product.
 - **C · Code-built**: HTML + GSAP / Three.js, deterministic frame recorder, ffmpeg; or HyperFrames / Remotion. For kinetic type, data, 3D turntables, scroll-style reveals, app UI motion.
   - Before motion: one key still per beat → animatic (static cuts, real timings, text in place) → legibility check at phone size in every ratio. Frame recorder: seek per frame, local fonts, base64-embedded textures, ffmpeg encode.
 - **D · After Effects**: ExtendScript through the app, aerender. For logo stings, tracking, precise text, compositing, editable projects. Route order: core/finish-layer/after-effects/AE-route.md.

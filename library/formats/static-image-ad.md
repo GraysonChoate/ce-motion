@@ -1,5 +1,5 @@
 # Format playbook: Static image ad (ce-motion)
-Read at step 4 (concept matrix) and step 7 (audit, every concept × ratio). §8 goes into the frame check. Template: core/format-playbook.md. Angles and routes (A fast · B locked-pack composite · C Canva): image-ads.md. Placements, sizes, safe zones: core/export-table.md. This file adds the designer's numbers; it does not restate those.
+Read at step 4 (concept matrix) and step 7 (audit, every concept × ratio). §8 goes into the frame check. Template: core/format-playbook.md. Angles and routes (A fast · B packshot-guided · C Canva): image-ads.md. Placements, sizes, safe zones: core/export-table.md. This file adds the designer's numbers; it does not restate those.
 Graphics version of the template: §1 canvas/grid · §2 layout · §3 eye path · §4 imagery · §5 color · §6 sound (none) · §7 set and ratios · §8 checks · §9 build skeleton · §10 references.
 
 ## 1. Canvas and grid
@@ -23,7 +23,7 @@ Graphics version of the template: §1 canvas/grid · §2 layout · §3 eye path 
 ## 4. Imagery (how it is ordered)
 - Route per concept from image-ads.md. Label must be exact → route B.
 - Scene/people/lifestyle = supplier ticket (ce-cinematic styled, ce-realism phone-real); packshot = Asset Studio transparent PNG.
-- Ticket names: ratio, 2× size (≥ 2160 px short edge), the clean text zone per ratio, surface line height, light direction and K, "no text, no logos, no labels, no packaging in the scene" (pack is composited).
+- Ticket names: ratio, 2× size (≥ 2160 px short edge), the clean text zone per ratio, surface line height, light direction and K, the real packshot as a placement/angle reference (real packshot = reference only (core SKILL.md rule 2)); no other text or logos in the scene.
 - Order one master scene that leaves room for every named ratio, or one per ratio when framing matters (export table, "Make once, cut many"), quoted.
 
 ## 5. Color and contrast

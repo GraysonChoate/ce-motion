@@ -10,4 +10,4 @@ Ask only what the request and research don't answer; the rest are proposed in th
 
 Proposed, never asked: number of pieces (from the request), length (from the placement band, core/export-table.md), sound (silent-first; SFX + music on video).
 Derived, never asked: ratios, sizes, safe zones, slide size, BPM default, fps, specs.
-Standard method, never asked: exact copy list; text in code; real pack composited; stills before motion; native layout per ratio; frame sheet audit.
+Standard method, never asked: exact copy list; text in code; real pack rendered in-scene from a packshot reference (never composited); stills before motion; native layout per ratio; frame sheet audit.
