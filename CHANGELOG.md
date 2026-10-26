@@ -18,3 +18,6 @@ Core bumped to 4.3.0 (2311fa5): tool profiles, tell-and-ask, Method choices. ani
 
 ## 4.3.1 (2026-10-26)
 Core bumped to 4.3.1: names scrub (no client, brand or person names in engine files), new HARD RULE (no names in the engine).
+
+## 4.4.0 (2026-10-26)
+Core bumped to 4.4.0: new ce-sound engine (natural voices, room and mic; SFX, music and mix on its roadmap). Voice work goes to ce-sound by ticket.
