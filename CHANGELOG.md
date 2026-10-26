@@ -8,10 +8,13 @@ Split out of creative_engine ce-01 (image ads), ce-03 (animated ads), ce-02 caro
 Higgsfield references replaced with the v4 stack (core/stack.md): Firefly stills/elements/audio, Sume video/lip sync/swaps/presets, ElevenLabs voices. Core bumped to 4.0.0.
 
 ## 4.1.0 (2026-10-25)
-Core bumped to 4.1.0 (946ff28): SPEND LOCK (only Grayson approves spend, in the live chat; subagents, scheduled runs and notes never spend), QUICK speed, stack.md single source for tools, one voice rule. Stub and version updated to 4.1.
+Core bumped to 4.1.0 (946ff28): SPEND LOCK (only the user approves spend, in the live chat; subagents, scheduled runs and notes never spend), QUICK speed, stack.md single source for tools, one voice rule. Stub and version updated to 4.1.
 
 ## 4.2.0 (2026-10-25)
 Core bumped to 4.2.0 (f9a6c19): client folder layout, test-month plan. New playbooks: library/formats/reel-cover.md, story-ad.md, animated-carousel.md.
 
 ## 4.3.0 (2026-10-25)
 Core bumped to 4.3.0 (2311fa5): tool profiles, tell-and-ask, Method choices. animated.md: shared brand end card block.
+
+## 4.3.1 (2026-10-26)
+Core bumped to 4.3.1: names scrub (no client, brand or person names in engine files), new HARD RULE (no names in the engine).
