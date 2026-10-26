@@ -27,3 +27,6 @@ Core bumped to 4.5.0 (5811e8d): tool-neutral, Higgsfield removed. This engine: v
 
 ## 4.5.1 (2026-10-26)
 Core bumped to 4.5.1: First-person ban removed: a generated creator may speak first person about routine and results, creator-style. Still not allowed: named 'verified customer', review screenshots, star ratings, fake before/afters, fake credentials (core rule 14).
+
+## 4.5.2 (2026-10-26)
+Core bumped to 4.5.2: Label rule: never paste, overlay or motion-track a label onto a generated product (it ignores the scene's light, reflections and curve). Label fail = regenerate with the packshot reference and the cause changed, image-edit the start frame so the model re-renders the pack in-scene, keep the product still in video, or cut away.
