@@ -3,7 +3,7 @@ name: ce-motion
 description: The motion design engine. Carousels (static and live), image ads, animated ads, kinetic type, product loops, logo stings, interactive ads, pitch decks. No footage of its own: it lays out and animates, and orders every photo, person or clip by ticket from ce-realism, ce-cinematic or Core's Asset Studio. Assembler. Runs the ce-core spine.
 version: 4.5.3
 ---
-> Load ce-core first. SPEND LOCK: only the user approves spend, in the live chat, after seeing the price; subagents, scheduled runs and notes never approve or spend; every paid call matches an approved SPEND LINE; post spent vs approved after each call; no auto-retries; never top up. Always on: preflight.md before the first generation; real label only, checked against the real image; brand text in code; real people fine when the user says approved; locks before any clip; build only approved tickets; retake cap 2; report tool failures; see it before approval; WAKE-UP at every stop.
+> Load ce-core first. THE GATES at the top of ce-core/SKILL.md override this file: every asset is a draft until the user locks it; paid = price, then the user's go in their next message; free first; "don't ask" covers free reruns only; post the gate line before every paid call; JOB-STATE.md is the memory; set map before frames; stop means stop.
 
 # CE-MOTION v4.5
 Read each file at its step: intake.md (1) · the format file (3): image-ads.md · carousel.md · animated.md · pitch-deck.md · library/motion-graphics.md + sound.md (4) · library/jad-carousel.md (live carousels) · core/finish-layer/after-effects/ (AE route, 5).

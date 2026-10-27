@@ -14,7 +14,7 @@ Variables: [BRAND] [GOAL] [LENGTH: the user sets it; default 10 slides, said so]
 | 5 Build | From the Slides artifact type when listed (Artifact quickstart, intent slides); a .pptx only if the user names that format. Real screenshots and images only. |
 | 6 Assemble | Order, transitions, links or short loops for video. |
 | 7 Audit + deliver | Every slide viewed as an image: overflow, tiny text, wrong logos or labels, anything inferred but unmarked. Then the deck + a one-line list of what's inferred and what's still needed. |
-EXPLORE: show and go at each gate. EXACT ("exact mode", "ship it", "client-ready"): every gate waits; step 7 by a separate pass.
+Every gate waits for the user's lock (G1); paid calls need a go (G2). EXACT ("exact mode", "ship it", "client-ready"): every gate waits; step 7 by a separate pass.
 
 ## Deck rules
 - Inferred is not fact: mark it "from your site, please confirm". Never write copy as if the client said it.

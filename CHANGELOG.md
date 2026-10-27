@@ -1,4 +1,7 @@
 # ce-motion changelog
+
+## gates · 2026-10-27
+- Stub points to THE GATES; pitch-deck gates wait for a lock.
 ## 3.1.0 (2026-10-16)
 Matched ce-core 3.1.0: generated footage = supplier ticket (presets = drafts unless label + frame check pass); one direction set per job, board per format; ratios from named placements; ranked intake; audio per core routing (generate_audio speech only); EXACT triggers; specs point to core/export-table.md; dropped legal-style gates; ticket mode; read files at their step.
 ## 3.0.0 (2026-10-16)
