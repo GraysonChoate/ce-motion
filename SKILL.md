@@ -5,6 +5,8 @@ version: 4.5.3
 ---
 > Load ce-core first. THE GATES at the top of ce-core/SKILL.md override this file: every asset is a draft until the user locks it; paid = price, then the user's go in their next message; free first; "don't ask" covers free reruns only; post the gate line before every paid call; JOB-STATE.md is the memory; set map before frames; stop means stop.
 
+Craft for generated media (one shared copy): ce-core/craft/realism.md, continuity.md, keyframe-to-video.md; per-shot checklist ce-core/audit/keyframe-gate.md. This engine adds only its flavor.
+
 # CE-MOTION v4.5
 Read each file at its step: intake.md (1) · the format file (3): image-ads.md · carousel.md · animated.md · pitch-deck.md · library/motion-graphics.md + sound.md (4) · library/jad-carousel.md (live carousels) · core/finish-layer/after-effects/ (AE route, 5).
 

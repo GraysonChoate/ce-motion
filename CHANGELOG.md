@@ -1,5 +1,8 @@
 # ce-motion changelog
 
+## craft · 2026-10-27
+- Points to ce-core/craft for generated media.
+
 ## gates · 2026-10-27
 - Stub points to THE GATES; pitch-deck gates wait for a lock.
 ## 3.1.0 (2026-10-16)
