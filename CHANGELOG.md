@@ -1,3 +1,7 @@
+## 5.0.0 — 2026-10-28 · flavor on core v5
+- SKILL.md rewritten as flavor: what ce-motion adds to each core skill. Spine, gates, tickets and tool routing removed (core v5 + the user's playbook).
+- core submodule → ce-core v5-skill-tree (fc15a0c). Libraries and playbooks unchanged.
+
 # ce-motion changelog
 
 ## craft · 2026-10-27

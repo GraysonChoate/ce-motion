@@ -1,3 +1,7 @@
+# ce-motion (v5 flavor)
+Load ce-core v5 first; this file adds the motion way of doing each core skill. Libraries unchanged.
+
+---
 # ce-motion (v4.5.3)
 The motion design engine: image ads, carousels (static + live), animated ads, kinetic type, logo stings, interactive ads, app UI motion, pitch decks. Never invents a photo; orders people and footage by ticket from ce-realism, ce-cinematic or core Asset Studio. Runs the ce-core spine (submodule `core/`).
 

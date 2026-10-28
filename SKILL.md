@@ -1,80 +1,45 @@
 ---
 name: ce-motion
-description: The motion design engine. Carousels (static and live), image ads, animated ads, kinetic type, product loops, logo stings, interactive ads, pitch decks. No footage of its own: it lays out and animates, and orders every photo, person or clip by ticket from ce-realism, ce-cinematic or Core's Asset Studio. Assembler. Runs the ce-core spine.
-version: 4.5.3
+description: The motion design flavor on top of ce-core v5. Carousels (static and live), image ads, animated ads, kinetic type, product loops, logo stings, interactive ads, app UI motion, pitch decks. Lays out and animates; never invents a photo: every person, scene or clip is ordered from the engine whose look it needs. Adds to each core skill; removes none.
+version: 5.0.0
 ---
-> Load ce-core first. THE GATES at the top of ce-core/SKILL.md override this file: every asset is a draft until the user locks it; paid = price, then the user's go in their next message; free first; "don't ask" covers free reruns only; post the gate line before every paid call; JOB-STATE.md is the memory; set map before frames; stop means stop.
+> Load ce-core first (its SKILL.md, then the user's playbook). Core's three floor rules hold: show before build, price before spend, see it. This file only adds the motion-design way of doing each step.
 
-Craft for generated media (one shared copy): ce-core/craft/realism.md, continuity.md, keyframe-to-video.md; per-shot checklist ce-core/audit/keyframe-gate.md. This engine adds only its flavor.
-
-# CE-MOTION v4.5
-Read each file at its step: intake.md (1) · the format file (3): image-ads.md · carousel.md · animated.md · pitch-deck.md · library/motion-graphics.md + sound.md (4) · library/jad-carousel.md (live carousels) · core/finish-layer/after-effects/ (AE route, 5).
+# CE-MOTION v5 — flavor
 
 ## How this engine thinks
-Graphics lead the board: the layout, type and motion are the work. Motion design **never invents a photo**: every person, lifestyle shot or clip is ordered by ticket from the engine whose look it needs (phone-real → ce-realism, styled campaign → ce-cinematic, product on a tile → Asset Studio). Text is set in code or the editor, never generated.
-**Generated footage = a supplier ticket.** Any generated scene, plate or preset footage is ordered by ticket: ce-cinematic (styled scenes, plates), ce-realism (phone-real), core Asset Studio (packshot cutouts). Tool presets (one-click ad or motion templates): concept drafts on a yes; finals only if they pass the label check and frame check. Every move has a job: show the product or reveal information. Silent-first: it must work with the sound off; sound (UI clicks, whooshes, coin chimes, swipes) makes it land when it's on.
+Graphics lead: the layout, type and motion are the work. Motion design never invents a photo: every person, lifestyle shot or generated scene is ordered from the engine whose look it needs (phone-real → ce-realism; styled → ce-cinematic; packshot cutouts → core asset-studio). Text is set in code or the editor, never generated. Every move has a job: show the product or reveal information. Silent-first: it works with the sound off; sound (UI clicks, whooshes, swipes) makes it land when it's on.
 
-## Formats
-Playbooks (library/formats/, read at step 4): static-image-ad.md · instagram-carousel.md · animated-carousel.md · story-ad.md · reel-cover.md.
-| Format | File | Lead | Clock |
-|---|---|---|---|
-| Static image ad | image-ads.md | Graphics | one frame per ratio |
-| Static carousel | carousel.md | Graphics | slides |
-| Live carousel (looping video slides, one song) | carousel.md | Graphics + Beat | slides × bars |
-| Animated ad / product loop / hyper-motion graphic | animated.md | Graphics | seconds |
-| Kinetic type / data | animated.md | Graphics | seconds, on the beat |
-| Logo sting | animated.md §Logo | Graphics + Sound | ≤ 3 s |
-| Interactive ad (hover, tap, swipe states) | animated.md §Interactive | Graphics | states |
-| App UI motion (from real screenshots or code) | animated.md §App UI | Graphics | seconds |
-| Pitch / concept deck | pitch-deck.md | Beat | slides |
+## Formats (playbooks in library/formats/, read at storyboard)
+| Format | File | Clock |
+|---|---|---|
+| Static image ad | image-ads.md · static-image-ad.md | one frame per ratio |
+| Static carousel | carousel.md · instagram-carousel.md | slides |
+| Live carousel (looping video slides, one song) | carousel.md · animated-carousel.md · library/jad-carousel.md | slides × bars |
+| Animated ad / product loop / hyper-motion graphic | animated.md · story-ad.md | seconds |
+| Kinetic type / data | animated.md | seconds, on the beat |
+| Logo sting | animated.md §Logo | ≤ 3 s |
+| Interactive ad | animated.md §Interactive | states |
+| App UI motion | animated.md §App UI | seconds |
+| Pitch / concept deck | pitch-deck.md | slides |
+Explainers go to ce-cinematic. Two formats in one job: one set of three directions, one board per format. Motion can supply finished loops, stings and components to ce-web.
 
-Explainers: ce-cinematic. Two formats in one job (e.g. carousel + ads): one set of 3 directions, one board per format.
-**Ticket mode**: motion can supply finished loops, stings and components to ce-web (or another assembler) by ticket (core SKILL.md, Ticket mode).
+## What motion adds to each core skill
+**brief** — Brand tokens from the bible: hex palette with one role per color, type scale, logo files, three motion words (speed and feel), clearspace. Real packshots as transparent PNGs, vector logo. Local font files loaded before anything renders.
 
-## Step 1 · Prepare
-ce-core intake + intake.md. Brand tokens from the bible: hex palette with one role per color, type scale, logo files, motion words (3 adjectives for speed and feel), clearspace. Asset Studio: real packshots (transparent PNG), vector logo, product cutouts. Load local font files before anything renders.
+**reference** — Five best-in-niche ads or carousels: hook, layout, motion, length; match or beat, one line each. For hyper-motion graphics, the physics reference is still real footage of the thing moving.
 
-## Step 2 · Research
-ce-core research: 5 best-in-niche ads or carousels: hook, layout, motion, length. Match / beat, one line each.
+**storyboard** — Concept matrix, one row per piece: angle × product × ratio with hook, headline, subline, CTA. Board with graphics leading; video gets a beat sheet in seconds (0–2 s hook, proof beats, CTA, end card) with a SEAM between beats (an in-frame event carries the change, not a cut); carousels get one row per slide. **Exact copy list**: every on-screen string quoted, "nothing else appears". Motion spec from the motion words: easing, one lead move plus small staggers, overshoot ≤ 6 % UI, ≤ 13 % headlines, none on numbers, none for luxury; blur only while moving; holds long enough to read. Sound track designed (sound.md). Three directions: clean packshot + type · editorial layout · in-motion composite or hyper-motion.
 
-## Step 3 · Ideate (gate: pick 1 of 3)
-Three directions, safe → bold, each one key frame at the main ratio: TAME clean packshot + type · NEW DIRECTION editorial/lifestyle layout · SPECTACULAR in-motion composite or hyper-motion. Key frames = free mocks (packshot + type, placeholders for photos) or quoted PRE stills ordered from a supplier. Image ads: pick 1 direction, then 3+ concepts inside it.
+**physics** — library/motion-graphics.md: products sit on a measured surface line with a contact shadow and matching light; a hyper-motion graphic obeys the same mass and cause rules as a filmed one.
 
-## Step 4 · Map (gate: approve board + tickets)
-- Concept matrix (one row per piece): angle × product × ratio, with hook, headline, subline, CTA.
-- Board on six tracks; Graphics leads. For video: a beat sheet in seconds (0–2 s hook, proof beats, CTA, end card); between beats a SEAM (an in-frame event carries the change, not a cut). For carousels: one row per slide.
-- **Exact copy list**: every on-screen string quoted; "nothing else appears".
-- Motion spec (from motion words): easing, one lead move + small supporting staggers, overshoot (≤ 6% UI, ≤ 13% headlines, none on numbers; none for luxury), blur only while moving, holds long enough to read.
-- Sound track designed (sound.md).
-- Tickets: every photo/person/clip ordered from a supplier engine with its look, size, text space and locks; code/layout pieces as free tickets. Credits quoted.
+**image-prompting / video-prompting** — Only via tickets to the supplier engines, with the look, size, text space and locks named. Tool presets (one-click ad templates): concept drafts only; a final only if it passes the label and frame checks.
 
-## Step 5 · Build pieces
-Supplier pieces arrive by ticket and are checked on receipt. Here: layouts, type, motion, composites. Routes per format file: Canva (templated text + resize), code (HTML + GSAP/Three.js rendered by a frame recorder; HyperFrames or Remotion), After Effects (tracking, logo stings, layered comps, editable project), presets (see §How this engine thinks). Products placed on a measured surface line with a contact shadow and matching light; never floating.
+**sound** — sound.md: UI sounds on the event frame, a swipe per slide change, the soundtrack as the master clock for anything timed (measure its beats, then cut).
 
-## Step 6 · Assemble
-Every ratio the named placements need, laid out natively (never squeezed), per core/export-table.md. Soundtrack is the master clock for anything timed: measure its beats, then cut. Captions only where speech exists.
+**audit** — Frame sheet every 0.25 s or every slide: label letter-perfect against the real packshot; product on its surface; logo clearspace; text in safe zones; hex sampled; fonts are the real files. Motion QA: easing matches the words; loop seam invisible; no flicker; no flashing above 3/s. Sound-off test; phone-size legibility (cover readable at 200 px wide).
 
-## Step 7 · Audit + deliver
-- Frame sheet every 0.25 s (video) or every slide: label matches the real packshot letter by letter; product on its surface; logo clearspace; text in safe zones; ad images keep text light (Meta recommendation, not a rule); hex sampled; fonts are the real files.
-- Motion QA: easing matches the motion words; loop seam invisible; no flicker; no flashing above 3/s; no judder.
-- Sound-off test; phone-size legibility test (cover readable at 200 px wide); loudness per core/export-table.md.
-- EXACT: fresh pass + gauntlet.
-- Demo gate per core: demo freeze shown; the user's yes = deliver.
-- Deliver to jobs/<date>_<job>/deliver/: every ratio, clean masters, editable source (Canva link, code, or AE project), contact sheet, file names per core/naming.md. Ledger line, WAKE-UP.
+**finish** — Every ratio the placements need laid out natively, never squeezed. Routes per format file: templated tools for text and resize; code (HTML + animation libraries rendered by a frame recorder) for exact type and motion; After Effects for tracking, stings and editable layered comps (core finish-layer/after-effects/). Captions only where speech exists.
 
 ## Rules (this engine)
-- Motion design never generates a person or a lifestyle photo itself; it orders one.
-- Real brand text in code or the editor; exact copy list on every piece.
-- Brand palette and fonts only; local font files.
-- One lead move at a time; nothing moves while it's being read.
-- Silent-first, sound-ready.
-
-## Extra failures (shared ones in ce-core §8)
-| Problem | Fix |
-|---|---|
-| Looks templated / generic | Real product photos and real brand worlds; one strong idea per piece; cut decoration. |
-| Text unreadable on phone | Fewer words, bigger type, 4 sizes max; test at real size. |
-| Motion feels busy | One lead move; slow the easing; remove secondary motion. |
-| Ratio looks squeezed | Re-lay out natively per ratio. |
-| Supplier photo doesn't fit the layout | Back with ticket ID + failing field (text space, crop, light). |
-| Loop jumps | Whole bars per slide; last frame = first frame; verify numerically. |
+Text in code, never generated · never a floating product · one lead move per beat · silent-first · generated footage = a supplier ticket, never made here.
