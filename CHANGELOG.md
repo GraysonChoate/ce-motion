@@ -1,3 +1,7 @@
+## 5.1.0 — 2026-10-31 · code-ads pipeline
+- code-ads.md: the proven code-built ad pipeline (one-clock beats file, deterministic frame-stepper, crash guard + watchdog, synthesized sound, official-logo rule), the mom-test story spine, format defaults (testable, not fixed), render costs and lessons from the Grounded Labs program. Linked from animated.md route C.
+- core → ce-core main 5.0.0.
+
 ## 5.0.0 — 2026-10-28 · flavor on core v5
 - SKILL.md rewritten as flavor: what ce-motion adds to each core skill. Spine, gates, tickets and tool routing removed (core v5 + the user's playbook).
 - core submodule → ce-core v5-skill-tree (fc15a0c). Libraries and playbooks unchanged.

@@ -1,7 +1,7 @@
 ---
 name: ce-motion
 description: The motion design flavor on top of ce-core v5. Carousels (static and live), image ads, animated ads, kinetic type, product loops, logo stings, interactive ads, app UI motion, pitch decks. Lays out and animates; never invents a photo: every person, scene or clip is ordered from the engine whose look it needs. Adds to each core skill; removes none.
-version: 5.0.0
+version: 5.1.0
 ---
 > Load ce-core first (its SKILL.md, then the user's playbook). Core's three floor rules hold: show before build, price before spend, see it. This file only adds the motion-design way of doing each step.
 
