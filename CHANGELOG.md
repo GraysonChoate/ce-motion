@@ -1,3 +1,7 @@
+## 5.1.1 — 2026-11-01 · viral type techniques
+- library/viral-type-techniques.md: nine techniques for graphics over a talking person (type in the room, phone UI as an object, angle per line, shrink to card, hand out of the phone, text on the lens, ghost self, SFX per beat, kinetic type worlds), each with why it spreads and build notes; caption rules (black boxes on busy backgrounds, text a hair after the word, one idea per screen). Linked from SKILL.md storyboard and README.
+- core submodule → ce-core 5.1.4 (lessons 2026-11-01).
+
 ## 5.1.0 — 2026-10-31 · code-ads pipeline
 - code-ads.md: the proven code-built ad pipeline (one-clock beats file, deterministic frame-stepper, crash guard + watchdog, synthesized sound, official-logo rule), the mom-test story spine, format defaults (testable, not fixed), render costs and lessons from the Grounded Labs program. Linked from animated.md route C.
 - core → ce-core main 5.0.0.

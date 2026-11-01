@@ -1,5 +1,5 @@
 # ce-motion (v5 flavor)
-Load ce-core v5 first; this file adds the motion way of doing each core skill. Libraries unchanged.
+Load ce-core v5 first; this file adds the motion way of doing each core skill. Libraries: library/motion-graphics.md (defaults), library/jad-carousel.md (carousels), library/viral-type-techniques.md (graphics over a talking person, caption rules), library/formats/.
 
 ---
 # ce-motion (v4.5.3)

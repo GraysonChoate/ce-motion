@@ -1,7 +1,7 @@
 ---
 name: ce-motion
 description: The motion design flavor on top of ce-core v5. Carousels (static and live), image ads, animated ads, kinetic type, product loops, logo stings, interactive ads, app UI motion, pitch decks. Lays out and animates; never invents a photo: every person, scene or clip is ordered from the engine whose look it needs. Adds to each core skill; removes none.
-version: 5.1.0
+version: 5.1.1
 ---
 > Load ce-core first (its SKILL.md, then the user's playbook). Core's three floor rules hold: show before build, price before spend, see it. This file only adds the motion-design way of doing each step.
 
@@ -29,7 +29,7 @@ Explainers go to ce-cinematic. Two formats in one job: one set of three directio
 
 **reference** — Five best-in-niche ads or carousels: hook, layout, motion, length; match or beat, one line each. For hyper-motion graphics, the physics reference is still real footage of the thing moving.
 
-**storyboard** — Concept matrix, one row per piece: angle × product × ratio with hook, headline, subline, CTA. Board with graphics leading; video gets a beat sheet in seconds (0–2 s hook, proof beats, CTA, end card) with a SEAM between beats (an in-frame event carries the change, not a cut); carousels get one row per slide. **Exact copy list**: every on-screen string quoted, "nothing else appears". Motion spec from the motion words: easing, one lead move plus small staggers, overshoot ≤ 6 % UI, ≤ 13 % headlines, none on numbers, none for luxury; blur only while moving; holds long enough to read. Sound track designed (sound.md). Three directions: clean packshot + type · editorial layout · in-motion composite or hyper-motion. Recurring characters or worlds (an explainer series, a mascot, an episodic social show) reuse the same locks across every piece (core storyboard §8).
+**storyboard** — Concept matrix, one row per piece: angle × product × ratio with hook, headline, subline, CTA. Board with graphics leading; video gets a beat sheet in seconds (0–2 s hook, proof beats, CTA, end card) with a SEAM between beats (an in-frame event carries the change, not a cut); carousels get one row per slide. **Exact copy list**: every on-screen string quoted, "nothing else appears". Motion spec from the motion words: easing, one lead move plus small staggers, overshoot ≤ 6 % UI, ≤ 13 % headlines, none on numbers, none for luxury; blur only while moving; holds long enough to read. Sound track designed (sound.md). Three directions: clean packshot + type · editorial layout · in-motion composite or hyper-motion. Graphics over a talking person (creator reels, talking-head ads): pick 2–4 techniques and follow the caption rules in library/viral-type-techniques.md. Recurring characters or worlds (an explainer series, a mascot, an episodic social show) reuse the same locks across every piece (core storyboard §8).
 
 **physics** — library/motion-graphics.md: products sit on a measured surface line with a contact shadow and matching light; a hyper-motion graphic obeys the same mass and cause rules as a filmed one.
 
